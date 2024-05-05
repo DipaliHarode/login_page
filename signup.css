@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(./images/wallpaper.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.main{
+  width: 350px;
+  height: 480px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 5px 30px 50px black;
+}
+
+#chk{
+  display: none;
+}
+
+.signup{
+  position: relative;
+  width: 200%;
+  height: 100%;
+}
+
+label{
+  color: white;
+  font-size: 35px;
+  justify-content: center;
+  display: flex;
+  margin: 62px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.labelh{
+  margin-top: 0px;
+  
+}
+
+input{
+  width: 200px;
+  height: 20px;
+  background: white;
+  justify-content: center;
+  display: flex;
+  margin: 18px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+
+button{
+  width: 200px;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: white;
+  background: rgb(40, 80, 194);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 18px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+    cursor: pointer;
+  box-shadow: 5px 20px 40px black;
+}
+
+button:hover{
+  background: rgb(20, 57, 105);
+}
+
+.login{
+  height: 360px;
+  background: url(./images/wallpaper.jpg);
+  border-radius: 60% / 10%;
+  transform: translateY(-30px);
+  
+}
+
+.login label {
+  color: white;
+  transform: scale(.6);
+}
+
+.login p {
+  text-align: center;
+  padding: 20px;
+}
+
